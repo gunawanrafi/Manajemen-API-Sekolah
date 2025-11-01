@@ -1,0 +1,54 @@
+/* Action buttons specific styles */
+.action-buttons {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+tr:hover .action-buttons {
+  opacity: 1;
+}
+
+.button-edit,
+.button-delete {
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.button-edit {
+  background-color: #38b2ac;
+}
+
+.button-edit:hover {
+  background-color: #319795;
+  transform: translateY(-1px);
+}
+
+.button-delete {
+  background-color: #f56565;
+}
+
+.button-delete:hover {
+  background-color: #e53e3e;
+  transform: translateY(-1px);
+}
+
+/* Add shadow on hover */
+.button-edit:hover,
+.button-delete:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Better table alignment */
+td {
+  vertical-align: middle;
+}
+
+td:last-child {
+  padding: 0.5rem var(--spacing-md);
+}
+
+/* Consistent width for action buttons */
+.action-buttons button {
+  min-width: 80px;
+  margin: 0 0.25rem;
+}

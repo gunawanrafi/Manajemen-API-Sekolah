@@ -1,0 +1,23 @@
+/* Tambahkan di global.css */
+
+/* Select Input Styling */
+.select-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: white;
+  color: #2d3748;
+  transition: all 0.3s ease;
+}
+
+.select-input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+.select-input option {
+  padding: 0.5rem;
+}
