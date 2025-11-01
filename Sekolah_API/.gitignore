@@ -1,0 +1,11 @@
+# Folder dependensi Node.js
+node_modules/
+
+# File database (biarkan VM membuat databasenya sendiri)
+sekolah.db
+
+# File log
+*.log
+
+# Konfigurasi IDE (opsional, tapi bagus)
+.vscode/
