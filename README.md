@@ -32,7 +32,7 @@ cd Sekolah_API
 npm install
 
 # Jalankan server
-npm start
+node index.js
 ```
 Server akan berjalan di `http://localhost:5000`
 
